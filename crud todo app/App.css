@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.411);
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  max-width: 100vw;
+  
+}
+
+form{
+  
+  margin: 10px auto;
+  background-color: #282c34;
+  width: 23rem;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+form > button{
+  margin: 10px;
+  width: 30%;
+}
+form > input{
+  margin: 10px;
+  width: 22rem;
+  
+}
+.todo-element{
+  
+  background-color: #93b7ff;
+  padding: 10px;
+  margin: 10px;
+  width: 23rem;
+}
+
+
+
+
+
+.done{
+  text-decoration: line-through;
+  opacity: .7;
+}
+@media(max-width:400px){
+body{
+  font-size: 1.5rem;
+}
+}
