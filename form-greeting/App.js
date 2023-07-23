@@ -7,7 +7,7 @@ function App() {
   const [name, setName] = useState('');
 
   function getName(userName) {
-    setName(userName)
+    setName(userName) 
   }
 
   return (
